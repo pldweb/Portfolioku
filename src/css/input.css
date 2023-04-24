@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-5xl text-primary;
+        /* color: theme(colors.primary); */
+    }
+}
+
+
+@layer components {
+
+    .size-icon {
+        @apply text-white text-xl;
+    }
+
+    .card-showcase {
+        @apply relative mb-12;
+    }
+
+    .image-showcase {
+        @apply h-3/6 bg-white w-full rounded-radiusDefault overflow-hidden;
+    }
+
+    .caption {
+        @apply my-3;
+    }
+
+    .title-showcase {
+        @apply text-2xl text-white font-bold;
+    }
+
+    .category-showcase {
+        @apply text-white my-2;
+
+    }
+
+    .link-showcase {
+        @apply text-primary font-bold;
+    }
+
+
+    .card-skill {
+        @apply bg-card px-7 py-7 rounded-radiusDefault;
+    }
+
+    .title-skill {
+        @apply font-bold text-white font-space text-4xl my-3;
+    }
+
+    .description-skill {
+        @apply text-xl text-description;   
+    }
+
+    .image-icon {
+        @apply bg-dark rounded-full w-24 h-24 flex justify-center content-center;
+    }
+
+    .menu-button-active, .btn-primary {
+        @apply text-dark font-bold text-lg font-space py-2.5 px-6 rounded-md bg-primary;
+    }
+    .menu-button-no-active {
+        @apply text-white font-bold text-lg font-space py-2.5 px-4;
+    }
+
+    .section-width {
+        @apply md:container w-9/12 mx-auto mt-10;
+    }
+}
+
+@layer utilities {
+
+}
