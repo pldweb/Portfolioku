@@ -65,8 +65,28 @@
         @apply text-white font-bold text-lg font-space py-2.5 px-4;
     }
 
+    .menu {
+        @apply hidden md:block;
+    }
+
+    .toggle-button {
+        @apply text-dark w-10 h-10 relative focus:outline-none bg-primary md:hidden;
+    }
+
     .section-width {
-        @apply md:container w-9/12 mx-auto mt-10;
+        @apply md:container w-11/12 lg:w-10/12 mx-auto mt-10;
+    }
+
+    .hamburger-line {
+        @apply w-[30px] h-[3px] my-[7px] block bg-dark rounded-full;
+    }
+
+    .hamburger-active {
+       
+    }
+
+    .menu-button {
+        @apply font-medium mb-5 text-lg;
     }
 }
 

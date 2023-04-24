@@ -12,3 +12,33 @@ img.image-profile::before {
 .social-icon i {
     font-size: 20px; 
 }
+
+.card-showcase:hover, .image-profile:hover, .menu-button-active:hover, .btn-primary:hover{
+transform:scale(.95);
+transition: .4s ease;
+
+}
+
+.card-skill:hover {
+  transform: translateY(-15px);
+  transition: .4s ease
+}
+
+.card-skill:hover .image-icon {
+    transform:scale(.95) rotate(30deg);
+    transition: .4s ease;
+}
+
+.card-showcase, .image-icon, .card-skill, .menu-button-active, .btn-primary {
+    transition: .4s ease;
+  
+}
+
+.card-showcase:hover img {
+    transform: scale(1);
+    transition: .4s ease;
+}
+
+.card-showcase img, .image-profile {
+    transition: .4s ease;
+}
