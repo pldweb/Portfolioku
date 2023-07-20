@@ -1,5 +1,4 @@
 
-
 img.image-profile::before {
     position: absolute;
     width: 100%;
@@ -14,8 +13,8 @@ img.image-profile::before {
 }
 
 .card-showcase:hover, .image-profile:hover, .menu-button-active:hover, .btn-primary:hover{
-transform:scale(.95);
-transition: .4s ease;
+/* transform:scale(.95);
+transition: .4s ease; */
 
 }
 
@@ -25,8 +24,8 @@ transition: .4s ease;
 }
 
 .card-skill:hover .image-icon {
-    transform:scale(.95) rotate(30deg);
-    transition: .4s ease;
+    /* transform:scale(.95) rotate(30deg); */
+    /* transition: .4s ease; */
 }
 
 .card-showcase, .image-icon, .card-skill, .menu-button-active, .btn-primary {
@@ -35,10 +34,10 @@ transition: .4s ease;
 }
 
 .card-showcase:hover img {
-    transform: scale(1);
-    transition: .4s ease;
+    /* transform: scale(1);
+    transition: .4s ease; */
 }
 
 .card-showcase img, .image-profile {
-    transition: .4s ease;
+    /* transition: .4s ease; */
 }
