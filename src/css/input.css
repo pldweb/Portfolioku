@@ -88,6 +88,13 @@
     .menu-button {
         @apply font-medium mb-5 text-lg;
     }
+
+    .button-tab {
+        @apply inline-block text-white font-medium hover:text-white hover:bg-gray-700 rounded-lg py-3 px-4 text-sm font-bold text-center dark:text-gray-400 dark:hover:text-gray-300;
+    }
+
+
+
 }
 
 @layer utilities {

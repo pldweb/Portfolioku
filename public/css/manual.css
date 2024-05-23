@@ -41,3 +41,11 @@ transition: .4s ease; */
 .card-showcase img, .image-profile {
     /* transition: .4s ease; */
 }
+
+
+.dark [role=tab].active, .dark [role=tab].active:hover, [role=tab].active, [role=tab].active:hover {
+    border-color: none;
+    color: #262626 !important;
+    background-color: #F5EF25;
+
+}
